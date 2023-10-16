@@ -1,0 +1,84 @@
+.container-fluid {
+    height: 60px;
+    padding-top: 30px;
+
+}
+
+
+.container-fluid>a {
+    float: right;
+    font: 13px/27px Roboto, Arial, sans-serif;
+
+    color: black;
+    padding-right:32px ;
+}
+
+.container-fluid>a:hover {
+    color: black;
+}
+
+.logo img {
+    display: block;
+    height: auto;
+    padding-top: 290px;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20px;
+}
+
+
+input[type="submit"]:hover {
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .1);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #202124;
+}
+
+
+input[type="submit"] {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+
+
+}
+
+input[type="text"] {
+    display: flex;
+    min-height: 44px;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    width: 582px;
+    padding-left: 26px;
+}
+
+
+form {
+    margin-left: 33%;
+}
+
+input[type="submit"] {
+    margin-left: 8%;
+}
+
+.underlogo{
+    color: #4285f4;
+    font: 16px/16px roboto-regular, arial, sans-serif;
+    text-align: center;
+    
+
+}
+
